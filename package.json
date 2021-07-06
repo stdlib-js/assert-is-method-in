@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-method-in",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test if an object has a specified method name, either own or inherited.",
   "license": "Apache-2.0",
   "author": {
