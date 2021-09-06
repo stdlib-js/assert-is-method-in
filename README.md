@@ -150,6 +150,24 @@ bool = isMethodIn( { '[object Object]': isMethodIn }, {} );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/has-property`][@stdlib/assert/has-property]: test if an object has a specified property, either own or inherited.
+-   [`@stdlib/assert/is-function`][@stdlib/assert/is-function]: test if a value is a function.
+-   [`@stdlib/assert/is-method`][@stdlib/assert/is-method]: test if an object has a specified method name.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -204,6 +222,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-method-in/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/has-property]: https://github.com/stdlib-js/assert-has-property
+
+[@stdlib/assert/is-function]: https://github.com/stdlib-js/assert-is-function
+
+[@stdlib/assert/is-method]: https://github.com/stdlib-js/assert-is-method
+
+<!-- </related-links> -->
 
 </section>
 
