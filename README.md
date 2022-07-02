@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isMethodIn;
+})();
 })();
 </script>
 ```
@@ -141,6 +143,7 @@ bool = isMethodIn( value, 'bap' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-method-in@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool = isMethodIn( {}, 'toString' );
 // returns true
@@ -166,6 +169,7 @@ bool = isMethodIn( { 'null': isMethodIn }, null );
 bool = isMethodIn( { '[object Object]': isMethodIn }, {} );
 // returns true
 
+})();
 })();
 </script>
 </body>
@@ -263,11 +267,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/has-property]: https://github.com/stdlib-js/assert-has-property/tree/umd
+[@stdlib/assert/has-property]: https://github.com/stdlib-js/assert-has-property/tree/umd/tree/umd
 
-[@stdlib/assert/is-function]: https://github.com/stdlib-js/assert-is-function/tree/umd
+[@stdlib/assert/is-function]: https://github.com/stdlib-js/assert-is-function/tree/umd/tree/umd
 
-[@stdlib/assert/is-method]: https://github.com/stdlib-js/assert-is-method/tree/umd
+[@stdlib/assert/is-method]: https://github.com/stdlib-js/assert-is-method/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
