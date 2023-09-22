@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isMethodIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-method-in@deno/mod.js';
+import isMethodIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-method-in@v0.1.0-deno/mod.js';
 ```
 
 #### isMethodIn( value, property )
@@ -122,7 +122,7 @@ bool = isMethodIn( value, 'bap' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isMethodIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-method-in@deno/mod.js';
+import isMethodIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-method-in@v0.1.0-deno/mod.js';
 
 var bool = isMethodIn( {}, 'toString' );
 // returns true
