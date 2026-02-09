@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-is-function": "^0.2.3",
-    "@stdlib/object-ctor": "^0.2.2"
+    "@stdlib/object-ctor": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-has-symbol-support": "^0.2.3",
